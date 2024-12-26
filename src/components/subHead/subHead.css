@@ -1,0 +1,52 @@
+.second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .search-container {
+    flex: 1;
+    margin-right: 1rem;
+  
+    .search-bar {
+      width: 1000%;
+      max-width: 350px;
+    }
+  }
+  
+  .action-container {
+    flex-shrink: 0;
+  
+    .quick-add-button {
+      background-color:rgb(27, 52, 78); /* Primary button color */
+      color: #fff;
+      text-transform: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+  
+      &:hover {
+        background-color:rgb(28, 67, 108); /* Darker shade for hover */
+      }
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .second-header {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .search-container {
+      margin-right: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .quick-add-button {
+      width: 100%;
+    }
+  }
+  

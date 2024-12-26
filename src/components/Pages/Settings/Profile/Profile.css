@@ -1,0 +1,44 @@
+.profile-page {
+    padding: 20px;
+  }
+  
+  .profile-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .profile-form label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  
+  .profile-form input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn-edit,
+  .btn-save {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-edit {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .btn-save {
+    background-color: #2196f3;
+    color: white;
+  }
+  

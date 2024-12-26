@@ -1,0 +1,36 @@
+/* General Styles */
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Dark and Light Mode Variables */
+:root {
+  --header-bg: #273341;
+  --header-text: white;
+  --sidebar-bg: #273341;
+  --sidebar-text: white;
+  --active-link-bg: #4a90e2;
+  --active-link-text: white;
+}
+
+body.light-mode {
+  --header-bg: #f9f9f9;
+  --header-text: black;
+  --sidebar-bg: #f9f9f9;
+  --sidebar-text: black;
+}
+
+body.dark-mode {
+  --header-bg: #273341;
+  --header-text: white;
+  --sidebar-bg: #273341;
+  --sidebar-text: white;
+}
+

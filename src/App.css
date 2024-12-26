@@ -1,0 +1,21 @@
+:root {
+  --header-bg: #273341;
+  --header-text: white;
+  --sidebar-bg: #273341;
+  --sidebar-text: white;
+  --active-link: #4a90e2;
+}
+
+body.light-mode {
+  --header-bg: #f9f9f9;
+  --header-text: black;
+  --sidebar-bg: #f9f9f9;
+  --sidebar-text: black;
+}
+
+body.dark-mode {
+  --header-bg: #273341;
+  --header-text: white;
+  --sidebar-bg: #273341;
+  --sidebar-text: white;
+}
